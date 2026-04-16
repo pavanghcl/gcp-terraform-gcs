@@ -25,5 +25,5 @@ jobs:
 
       - name: Terraform Plan
         run: terraform plan \
-          -var="project_id=${{ secrets.PROJECT_ID }}" \
-          -var="region=${{ secrets.REGION }}"
+        #  -var="project_id=${{ secrets.PROJECT_ID }}" \
+        #  -var="region=${{ secrets.REGION }}"
