@@ -27,3 +27,5 @@ jobs:
         run: terraform plan \
         #  -var="project_id=${{ secrets.PROJECT_ID }}" \
         #  -var="region=${{ secrets.REGION }}"
+      - name: Terraform Apply
+        run: terraform apply -auto-approve
