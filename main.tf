@@ -9,3 +9,5 @@ resource "google_storage_bucket" "state_bucket" {
     enabled = true
   }
 }
+
+
